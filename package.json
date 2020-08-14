@@ -6,10 +6,15 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.19.2",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "mongodb": "^3.6.0",
+    "morgan": "~1.9.1",
+    "typy": "^3.3.0",
+    "xml-js": "^1.6.11"
   }
 }

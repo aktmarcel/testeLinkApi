@@ -1,5 +1,7 @@
 const axios = require('axios');
 const Joi = require('@hapi/joi');
+// Função que cria os 'deals' na pipedrive
+
 module.exports.index = async (req, res) => {
     try {
         await schemaValidation(req.body, res);

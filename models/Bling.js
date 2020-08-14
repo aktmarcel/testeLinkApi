@@ -1,5 +1,7 @@
 var convert = require('xml-js');
 const axios = require('axios');
+
+//Classe responsavel por inserir as ordens na Bling
 class Bling {
     constructor(params){
         this.bling = {
